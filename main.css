@@ -17,7 +17,7 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
+    background-color: #ee1010;
     color: #ecf0f1
 }
 header h1,
@@ -173,4 +173,39 @@ footer {
     background-color: #182c61;
     color: #fff;
     padding: 16px 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center; /* Centraliza a barra de pesquisa */
+    margin: 16px 0; /* Espaçamento em cima e embaixo */
+}
+
+.search-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Cantos arredondados */
+    width: 300px; /* Largura do campo de pesquisa */
+}
+
+.search-container button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #182c61; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    margin-left: 8px; /* Espaçamento entre o input e o botão */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+.search-container button:hover {
+    background-color: #153a88; /* Cor do botão ao passar o mouse */
+}
+
+header nav li a {
+    transition: transform 0.3s; /* Transição suave */
+}
+
+header nav li a:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
 }
